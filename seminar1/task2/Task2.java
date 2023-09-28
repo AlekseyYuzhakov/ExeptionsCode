@@ -33,4 +33,19 @@ public class Task2 {
     return sum;
   }
 
+  public int[] divArrays(int[] a, int[] b) {
+    try {
+      if (a.length == b.length) {
+        int[] temp = new int[a.length];
+        for (int i = 0; i < a.length; i++) {
+          temp[i] = a[i] / b[i];
+        }
+        return temp;
+      }
+
+    } catch (RuntimeException e) {
+      System.out.println(e.getMessage());
+    }
+    return new int[] { 0 };
+  }
 }

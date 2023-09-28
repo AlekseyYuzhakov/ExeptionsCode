@@ -18,6 +18,7 @@ public class Task1 {
     } catch (Exception e) {
 
     }
+    
   }
 
   public static void checkMass(List<String[]> arr) {
@@ -76,5 +77,6 @@ public class Task1 {
     writer.close();
 
   }
+  
 
 }
